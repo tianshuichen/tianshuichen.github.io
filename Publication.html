@@ -13,7 +13,7 @@
 <style type="text/css">  
 
 body {
-    font-family:楷体_GB2312, "Times New Roman";
+    font-family: Geneva, Arial, Helvetica, sans-serif;
     font-size: 16px;
     background-color: #f5f5f5;
 }
@@ -28,28 +28,49 @@ p{
 }
 
 .panel-heading {
-	font-family:楷体_GB2312, "Times New Roman";
     color: inherit;
     font-weight: 600;
     transition: all .3s;
-    font-size: 16px;
+    font-size: 18px;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
  }
  
  .second-heading {
-	font-family:楷体_GB2312, "Times New Roman";
     color: inherit;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 20px;
     margin-top:10px;
     margin-bottom: 10px;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
  }
 
  .Text-context {
-	font-family:楷体_GB2312, "Times New Roman";
     color: inherit;
     font-weight: 500;
     font-size: 16px;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	line-height: 18px;
+	margin:4px auto 0 auto;
  }
+ 
+ .li_style{
+    width:100%; 
+	height:120; 
+	float:left; 
+	list-style-type:none;
+	margin-bottom:10px;
+ }
+ 
+ .span_style_1{
+    float:left; 
+	width:20%; 
+	height:120;"
+}
+ .span_style_2{
+    float:left; 
+	width:80%; 
+	height:120;"
+}
 
 </style>
 
@@ -68,7 +89,7 @@ p{
 		</ul>
 	</div>
 	
-	<div class="row clearfix" style=" background-color: white;margin:60px 0px 100px 50px;">
+	<div class="row clearfix" style=" background-color: white;margin:60px -50px 100px -50px;">
 		<div class="col-md-12 column" style=" background-color: white;padding:50px 100px 50px 50px;">
 			
 			<div class="row clearfix" style="margin-left:20px; margin-bottom:30px; float: left; border: solid 2px #F0F8FF;">
@@ -76,82 +97,187 @@ p{
 				<div class="col-md-12 column" style="float: left;">
 					<ul style="float: left;">
 						<!-- Tournal papers -->
-						<p class="second-heading" style="margin-left: -15px;">Journal papers</p>
-						<li><p class="Text-context"> <b style="font-weight:bold;">Tianshui Chen</b>, Liang Lin, Xian Wu, and Xiaonan Luo, Learning to Segment Object 
-						Candidates via Recursive Neural Networks, to appear in IEEE Transactions on Image Processing (<b style="font-weight:bold;">T-IP</b>).
-						[<a href="https://arxiv.org/abs/1612.01057">PDF</a>]
-						[<a href="http://www.sysu-hcp.net/learning-to-segment-object-proposals-via-recursive-neural-networks/">ProjectPage</a>]</p></li>
+						<p class="second-heading" style="margin-left: -15px; margin-top: 20px;">Journal papers</p>
+						<!--
+						<hr style="margin-left: -15px; height:1px;border:none;border-top:1px solid #555555;" />
+						-->
 						
-						<li><p class="Text-context"> Dongyu Zhang, Liang Lin, <b style="font-weight:bold;">Tianshui Chen</b>, Xian Wu, Wenwei Tan, 
-						and Ebroul Izquierdo, Content-Adaptive Sketch Portrait Generation by Decompositional Representation 
-						Learning, IEEE Transactions on Image Processing (<b style="font-weight:bold;">T-IP</b>), 26(1): 328-339, 2017.
+						<li class="li_style">
+						<span class="span_style_1">
+							<img src="images/LSOCRNN_Fig1.jpg" width=90% height=90 class="" >
+						</span>
+						<span class="span_style_2">
+						<p class="Text-context">Learning to Segment Object Candidates via Recursive Neural Networks.</p>
+						<p class="Text-context" ><b style="font-weight:bold;">Tianshui Chen</b>, Liang Lin, Xian Wu, Nong Xiao, and Xiaonan Luo.</p>
+						<p class="Text-context" >to appear in IEEE Transactions on Image Processing (<b style="font-weight:bold;">T-IP</b>), 2018.</p>
+						<p class="Text-context" >
+						[<a href="https://arxiv.org/abs/1612.01057">PDF</a>]
+						[<a href="http://www.sysu-hcp.net/learning-to-segment-object-proposals-via-recursive-neural-networks/">ProjectPage</a>]
+						</p>
+						</span>
+						</li>
+						
+						<li class="li_style">
+						<span class="span_style_1">
+						<img src="images/CASPGDRL_Fig1.jpg" width=90% height=90 class="" >
+						</span>
+						<span class="span_style_2">
+						<p class="Text-context">Content-Adaptive Sketch Portrait Generation by Decompositional Representation Learning.</p>
+						<p class="Text-context" >Dongyu Zhang, Liang Lin, <b style="font-weight:bold;">Tianshui Chen</b>, Xian Wu, Wenwei Tan, and Ebroul Izquierdo.</p>
+						<p class="Text-context" >IEEE Transactions on Image Processing (<b style="font-weight:bold;">T-IP</b>), 26(1): 328-339, 2017.</p>
+						<p class="Text-context" >
 						[<a href="https://arxiv.org/abs/1710.01453">PDF</a>]
 						[<a href="http://www.sysu-hcp.net/photo-sketch-generation-and-verification/">ProjectPage</a>]
-						</p></li>
+						</p>
+						</span>
+						</li>
 						
-						<li><p class="Text-context"> <b style="font-weight:bold;">Tianshui Chen</b>, Liang Lin, Lingbo Liu, Xiaonan Luo, and Xuelong Li, DISC: Deep Image Saliency 
-						Computing via Progressive Representation Learning, IEEE Transactions on Neural Networks and Learning 
-						Systems (<b style="font-weight:bold;">T-NNLS</b>), 27(6): 1135-1149, 2016.
+						
+						<li class="li_style">
+						<span class="span_style_1">
+						<img src="images/DISC_DISCPRL_Fig2.jpg" width=90% height=90 class="" >
+						</span>
+						<span class="span_style_2">
+						<p class="Text-context">DISC: Deep Image Saliency Computing via Progressive Representation Learning.</p>
+						<p class="Text-context" ><b style="font-weight:bold;">Tianshui Chen</b>, Liang Lin, Lingbo Liu, Xiaonan Luo, and Xuelong Li.</p>
+						<p class="Text-context" >IEEE Transactions on Neural Networks and Learning Systems (<b style="font-weight:bold;">T-NNLS</b>), 27(6): 1135-1149, 2016.</p>
+						<p class="Text-context" >
 						[<a href="https://arxiv.org/abs/1511.04192">PDF</a>]
 						[<a href="https://github.com/tianshuichen/DISC">Code</a>]
 						[<a href="http://www.sysu-hcp.net/disc-deep-image-saliency-computing-via-progressive-representation-learning/">ProjectPage</a>]
-						</p></li>
-						
-						
-						
+						</p>
+						</span>
+						</li>	
 						
 					</ul>
+					
+					
 					<ul style="float: left;">
 						<!-- Conference papers -->
 						<p class="second-heading" style="margin-left: -15px;">Conference papers</p>
+						<!--
+						<hr style="margin-left: -15px; height:1px;border:none;border-top:1px solid #555555;" />
+						-->
 						
-						<li><p class="Text-context"><b style="font-weight:bold;">Tianshui Chen</b>, Liang Lin, Riquan Chen, Yang Wu, Xiaonan Luo, 
-							Knowledge-Embedded Representation Learning for Fine-Grained Image Recognition, Proc. of International Joint 
-							Conference on Artificial Intelligence (<b style="font-weight:bold;">IJCAI</b>), 2018.
-							[<a href="https://arxiv.org/abs/1807.00505">PDF</a>]
-						</p></li>
+						<li class="li_style">
+						<span class="span_style_1">
+						<img src="images/FGRLREHSE_Fig.jpg" width=90% height=90 class="" >
+						</span>
+						<span class="span_style_2">
+						<p class="Text-context">Fine-Grained Representation Learning and Recognition by Exploiting Hierarchical Semantic Embedding.</p>
+						<p class="Text-context" ><b style="font-weight:bold;">Tianshui Chen</b>, Wenxi Wu, Yuefang Gao, Le Dong, Xiaonan Luo, Liang Lin.</p>
+						<p class="Text-context" >Proc. of ACM International Conference on Multimedia (ACM MM), 2018.</p>
+						<p class="Text-context" >
+						<!--
+						[<a href="">PDF</a>]
+						-->
+						</p>
+						</span>
+						</li>	
 						
-						<li><p class="Text-context"><b style="font-weight:bold;">Tianshui Chen&dagger;</b>, Zhouxia Wang&dagger;, Jimmy Ren, Weihao Yu, 
-							Hui Cheng, Liang Lin, Deep Reasoning with Knowledge Graph for Social Relationship Understanding, Proc. of International 
-							Joint Conference on Artificial Intelligence (<b style="font-weight:bold;">IJCAI</b>), 2018. (&dagger;co-first authors).
-							[<a href="https://arxiv.org/abs/1807.00504">PDF</a>]
-							[<a href="https://github.com/HCPLab-SYSU/SR">Code</a>]
-						</p></li>
+						<li class="li_style">
+						<span class="span_style_1">
+						<img src="images/KERLFGIR_Fig1.jpg" width=90% height=90 class="" >
+						</span>
+						<span class="span_style_2">
+						<p class="Text-context">Knowledge-Embedded Representation Learning for Fine-Grained Image Recognition.</p>
+						<p class="Text-context" ><b style="font-weight:bold;">Tianshui Chen</b>, Liang Lin, Riquan Chen, Yang Wu, Xiaonan Luo.</p>
+						<p class="Text-context" >Proc. of International Joint Conference on Artificial Intelligence (<b style="font-weight:bold;">IJCAI</b>), 2018.</p>
+						<p class="Text-context" >
+						[<a href="https://arxiv.org/abs/1807.00505">PDF</a>]
+						</p>
+						</span>
+						</li>	
 						
-						<li><p class="Text-context"><b style="font-weight:bold;">Tianshui Chen</b>, Liang Lin, Wangmeng Zuo, Xiaonan Luo, and Lei Zhang, 
-						Learning A Wavelet-like Auto-Encoder to Accelerate Deep Neural Networks, Proc. of AAAI Conference on 
-						Artificial Intelligence (<b style="font-weight:bold;">AAAI</b>), 2018. (Oral Presentation)
+						<li class="li_style">
+						<span class="span_style_1">
+						<img src="images/DRKGSRU_Fig1.jpg" width=90% height=90 class="" >
+						</span>
+						<span class="span_style_2">
+						<p class="Text-context">Deep Reasoning with Knowledge Graph for Social Relationship Understanding.</p>
+						<p class="Text-context" ><b style="font-weight:bold;">Tianshui Chen&dagger;</b>, Zhouxia Wang&dagger;, Jimmy Ren, Weihao Yu, Hui Cheng, Liang Lin.</p>
+						<p class="Text-context" >Proc. of International Joint Conference on Artificial Intelligence (<b style="font-weight:bold;">IJCAI</b>), 2018. (&dagger;co-first authors).</p>
+						<p class="Text-context" >
+						[<a href="https://arxiv.org/abs/1807.00504">PDF</a>]
+						[<a href="https://github.com/HCPLab-SYSU/SR">Code</a>]
+						</p>
+						</span>
+						</li>
+
+						<li class="li_style">
+						<span class="span_style_1">
+						<img src="images/LWAEADNN_Fig1.jpg" width=90% height=90 class="" >
+						</span>
+						<span class="span_style_2">
+						<p class="Text-context">Learning a Wavelet-like Auto-Encoder to Accelerate Deep Neural Networks.</p>
+						<p class="Text-context" ><b style="font-weight:bold;">Tianshui Chen</b>, Liang Lin, Wangmeng Zuo, Xiaonan Luo, and Lei Zhang.</p>
+						<p class="Text-context" >Proc. of AAAI Conference on Artificial Intelligence (<b style="font-weight:bold;">AAAI</b>), 2018. (Oral Presentation).</p>
+						<p class="Text-context" >
 						[<a href="https://arxiv.org/abs/1712.07493">PDF</a>]
 						[<a href="https://github.com/tianshuichen/Wavelet-like-Auto-Encoder">Code</a>]
 						[<a href="http://www.sysu-hcp.net/wae/">ProjectPage</a>]
-						</p></li>
+						</p>
+						</span>
+						</li>
 						
-						<li><p class="Text-context"><b style="font-weight:bold;">Tianshui Chen</b>, Zhouxia Wang, Guanbin Li, and Liang Lin, 
-						Recurrent Attentional Reinforcement Learning for Multi-label Image Recognition, Proc. of AAAI Conference 
-						on Artificial Intelligence (<b style="font-weight:bold;">AAAI</b>), 2018.
+						<li class="li_style">
+						<span class="span_style_1">
+						<img src="images/RARLMIR_Fig1.jpg" width=90% height=90 class="" >
+						</span>
+						<span class="span_style_2">
+						<p class="Text-context">Recurrent Attentional Reinforcement Learning for Multi-label Image Recognition.</p>
+						<p class="Text-context" ><b style="font-weight:bold;">Tianshui Chen</b>, Zhouxia Wang, Guanbin Li, and Liang Lin.</p>
+						<p class="Text-context" >Proc. of AAAI Conference on Artificial Intelligence (<b style="font-weight:bold;">AAAI</b>), 2018.</p>
+						<p class="Text-context" >
 						[<a href="https://arxiv.org/abs/1712.07465">PDF</a>]
-						</p></li>
+						</p>
+						</span>
+						</li>
 						
-						<li><p class="Text-context"><b style="font-weight:bold;">Tianshui Chen&dagger;</b>, Zhouxia Wang&dagger;, Guanbin Li, Ruijia Xu, and Liang Lin, 
-						Multi-label Image Recognition by Recurrently Discovering Attentional Regions, Proc. of IEEE International 
-						Conference on Computer Vision (<b style="font-weight:bold;">ICCV</b>), 2017. (&dagger;co-first authors).
+						<li class="li_style">
+						<span class="span_style_1">
+						<img src="images/MIRRDAR_Fig1.jpg" width=90% height=90 class="" >
+						</span>
+						<span class="span_style_2">
+						<p class="Text-context">Multi-label Image Recognition by Recurrently Discovering Attentional Regions.</p>
+						<p class="Text-context" ><b style="font-weight:bold;">Tianshui Chen&dagger;</b>, Zhouxia Wang&dagger;, Guanbin Li, Ruijia Xu, and Liang Lin.</p>
+						<p class="Text-context" >Proc. of IEEE International Conference on Computer Vision (<b style="font-weight:bold;">ICCV</b>), 2017. (&dagger;co-first authors).</p>
+						<p class="Text-context" >
 						[<a href="https://arxiv.org/abs/1711.02816">PDF</a>]
-						</p></li>
+						</p>
+						</span>
+						</li>
 						
-						<li><p class="Text-context">Liang Lin, <b style="font-weight:bold;">Tianshui Chen&dagger;</b>, 
-						Lili Huang&dagger;, Yukang Gan, and Hui Cheng, Knowledge-Guided Recurrent Neural Network Learning 
-						for Task-oriented Action Prediction, Proc. of IEEE 
-						International Conference on Multimedia and Expo (<b style="font-weight:bold;">ICME</b>), 2017.  
+						<li class="li_style">
+						<span class="span_style_1">
+						<img src="images/KGRNNLTOAP_Fig1.jpg" width=90% height=90 class="" >
+						</span>
+						<span class="span_style_2">
+						<p class="Text-context">Knowledge-Guided Recurrent Neural Network Learning for Task-oriented Action Prediction.</p>
+						<p class="Text-context" >Liang Lin, <b style="font-weight:bold;">Tianshui Chen&dagger;</b>, Lili Huang&dagger;, Yukang Gan, and Hui Cheng.</p>
+						<p class="Text-context" >Proc. of IEEE International Conference on Multimedia and Expo (<b style="font-weight:bold;">ICME</b>), 2017.  
 						(<b style="font-weight:bold;">The world’s first 10K Best Paper Diamond Award</b>, 
-						More info: <a href="http://www.ieee-icme.org/sc/award.php">http://www.ieee-icme.org/sc/award.php</a>, &dagger;co-second authors).
+						More info: <a href="http://www.ieee-icme.org/sc/award.php">http://www.ieee-icme.org/sc/award.php</a>, &dagger;co-second authors).</p>
+						<p class="Text-context" >
 						[<a href="https://arxiv.org/abs/1707.04677">PDF</a>]
-						</p></li>
+						</p>
+						</span>
+						</li>
 						
-						<li><p class="Text-context">Shuye Zhang, Mude Lin, <b style="font-weight:bold;">Tianshui Chen</b>, Lianwen Jin, Liang Lin, 
-						Character Proposal Network for Robust Text Extraction, Proc. of IEEE International Conference on 
-						Acoustics, Speech and Signal Processing (<b style="font-weight:bold;">ICASSP</b>), 2016.
+						<li class="li_style">
+						<span class="span_style_1">
+						<img src="images/CPNFRTE_Fig1.jpg" width=90% height=90 class="" >
+						</span>
+						<span class="span_style_2">
+						<p class="Text-context">Character Proposal Network for Robust Text Extraction.</p>
+						<p class="Text-context" >Shuye Zhang, Mude Lin, <b style="font-weight:bold;">Tianshui Chen</b>, Lianwen Jin, Liang Lin.</p>
+						<p class="Text-context" >Proc. of IEEE International Conference on Acoustics, Speech and Signal Processing (<b style="font-weight:bold;">ICASSP</b>), 2016.</p>
+						<p class="Text-context" >
 						[<a href="https://arxiv.org/abs/1602.04348">PDF</a>]
-						</p></li>
+						</p>
+						</span>
+						</li>
+						
 						
 					</ul>
 				</div>
